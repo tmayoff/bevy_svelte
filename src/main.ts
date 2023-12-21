@@ -1,7 +1,7 @@
 import './app.css'
 import App from './App.svelte'
 
-import init from 'bevy_sprites';
+import init from '../bevy_sprites/pkg';
 
 const app = new App({
   target: document.getElementById('app'),
